@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(245, 243, 243);
+  /* z-index: -1; */
+}
+.Container {
+  display: flex;
+}
+.Container .Vertical-navbar {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 104px;
+  height: 1065px;
+  left: 24px;
+  top: 38px;
+  justify-content: initial;
+
+  background: linear-gradient(180deg, #0b57db 0%, #051ad0 100%);
+  border-radius: 40px 0px 0px 40px;
+}
+.logo {
+  height: 108px;
+  gap: 10px;
+}
+.home {
+  height: 40px;
+  position: relative;
+  top: 305px;
+  left: 0px;
+}
+.people {
+  height: 40px;
+  position: relative;
+  top: 324px;
+  left: 0px;
+}
+.help {
+  position: absolute;
+  left: 28px;
+  right: 0;
+  top: 960px;
+  bottom: 0;
+}
+.centre {
+  display: flex;
+  flex-direction: column;
+}
+.centre .horizontal-navbar {
+  position: relative;
+  width: 1240px;
+  height: 80px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  top: 38px;
+  left: 83px;
+  border: 1px solid #ede5e5;
+}
+.centre .horizontal-navbar .Search {
+  display: flex;
+}
+.search-icon {
+  position: relative;
+  top: 0px;
+  left: 51px;
+  z-index: 1;
+}
+.centre .horizontal-navbar .Search input {
+  outline: none;
+  border: none;
+  font-family: "Inter", sans-serif;
+  padding: 6px 16px 0px 70px;
+  font-size: 1.5rem;
+  height: 100%;
+  position: relative;
+  top: 5px;
+  /* left: -3px; */
+  width: 402px;
+  height: 55px;
+  background: #ffffff;
+  box-shadow: 0px 1px 10px 1px rgb(245, 245, 245);
+  border-radius: 50px;
+}
+.small-container {
+  display: flex;
+  margin-left: 22rem;
+  justify-content: space-between;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 64px;
+  color: #11263c;
+  gap: 0.8rem;
+}
+.Create-icon {
+  position: absolute;
+  width: 381px;
+  height: 284px;
+  left: 26px;
+  top: 96px;
+
+  background: #ffffff;
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+  border-radius: 20px;
+}
+.Vertical-icon {
+  position: absolute;
+  width: 381px;
+  height: 655px;
+  left: 26px;
+  top: 393px;
+
+  background: #ffffff;
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+  border-radius: 20px;
+}
+.Group-icon {
+  position: absolute;
+  width: 832px;
+  height: 406px;
+  left: 419px;
+  top: 96px;
+
+  background: #ffffff;
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+  border-radius: 20px;
+}
+.Horizontal-icon {
+  position: absolute;
+  width: 824px;
+  height: 526px;
+  left: 423px;
+  top: 507px;
+
+  background: #ffffff;
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+  border-radius: 20px;
+}
+.Logout-div {
+  position: absolute;
+  width: 253px;
+  height: 1058px;
+  left: 1444px;
+  top: 33px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 50px 50px 0px;
+}
+.userimg {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  left: 30px;
+  top: 5px;
+
+  border: 2px solid #6d63ff;
+  border-radius: 100px;
+}
+.Logout-div h4 {
+  /* font-family: 'Inter', sans-serif; */
+  position: absolute;
+  width: 68px;
+  height: 19px;
+  left: 100px;
+  top: 13px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.005em;
+
+  color: #0c0c0c;
+}
+.Logout-div h5 {
+  position: absolute;
+  width: 67px;
+  height: 15px;
+  left: 100px;
+  top: 34px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  letter-spacing: -0.005em;
+
+  color: #787878;
+}
+.Logout {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 38px;
+  top: 981px;
+}
+.Logout-div h3 {
+  position: absolute;
+  width: 116px;
+  height: 28px;
+  left: 92px;
+  top: 984px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.005em;
+
+  color: #000000;
+}
